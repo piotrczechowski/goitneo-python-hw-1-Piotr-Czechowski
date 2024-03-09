@@ -3,6 +3,6 @@ def add_contact(args, contacts):
         return "Invalid command. Please provide name and phone number."
     name, phone = args
     contacts[name] = phone
-    return "Contact added."
+    return ("Contact added.")
 
     

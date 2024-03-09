@@ -2,6 +2,7 @@ from functions import parse_input, add_contact, change_contact, show_all, show_p
 
 def main():
     contacts = {}
+    
     print("Welcome to the assistant bot!")
     while True:
         try:
