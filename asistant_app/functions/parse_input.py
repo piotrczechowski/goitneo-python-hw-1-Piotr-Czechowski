@@ -1,4 +1,4 @@
-# parser to provide command and values
+# This function splits strings to command and username, phone number
 
 def parse_input(user_input):
 
