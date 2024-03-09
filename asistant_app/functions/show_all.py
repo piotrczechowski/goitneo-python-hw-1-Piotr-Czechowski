@@ -1,3 +1,6 @@
+# This function show all contact. 
+
+
 def show_all(contacts):
     if not contacts:
         return "No contacts found."

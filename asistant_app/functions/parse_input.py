@@ -1,6 +1,10 @@
-# parser to provide command and values: cmd command and *args 
+# parser to provide command and values
+
 def parse_input(user_input):
+
     cmd, *args = user_input.split()
+   
     #command lower case
     cmd = cmd.strip().lower()
-    return cmd, args 
+    return cmd, args
+
