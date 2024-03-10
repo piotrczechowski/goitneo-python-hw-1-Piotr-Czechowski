@@ -32,7 +32,7 @@ def get_birthdays_per_week(users):
         if names:
             print(f"{day}: {', '.join(names)}")
 
-# Example usage: 
+
 users = [
     {"name": "Bill Gates", "birthday": datetime(1955, 10, 28)},
     {"name": "Jan Koum", "birthday": datetime(1976, 2, 24)},
