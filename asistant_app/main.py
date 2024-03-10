@@ -14,8 +14,8 @@ def main():
             user_input = input("Enter a command: ")
             command, args = parse_input(user_input)
         except ValueError:
-            print ("Empty spaces is not allowed")
-            print ("Please chose action: hello, add, change, phone, all")
+            print ("Empty spaces is not allowed.")
+            print ("Please chose action: hello, add, change, phone, all.")
         
         try:
             if command in ["close", "exit"]:
