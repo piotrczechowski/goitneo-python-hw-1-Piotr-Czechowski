@@ -1,7 +1,6 @@
-# Function: change_contact
-# Updates phone number of a contact.
-# Parameters: args (list), contacts (dict)
-# Returns: "Invalid command." or "Contact not found." or "Contact updated."
+from .input_error import input_error
+
+@input_error
 
 def change_contact(args, contacts):
     if len(args) != 2:

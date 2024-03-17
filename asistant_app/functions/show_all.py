@@ -1,7 +1,6 @@
-# Function: show_all
-# Generates a string of all contacts.
-# Parameters: contacts (dict)
-# Returns: "No contacts found." or formatted contact list (str)
+from .input_error import input_error
+
+@input_error
 
 def show_all(contacts):
     if not contacts:

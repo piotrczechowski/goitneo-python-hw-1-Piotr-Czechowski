@@ -1,8 +1,3 @@
-# Function: main
-# Description: Executes the assistant bot program, allowing users to interact with contacts.
-#   - Welcomes the user and enters a loop to receive commands.
-#   - Parses user input and executes corresponding functions to perform actions such as adding, changing, or displaying contacts.
-
 from functions import parse_input, add_contact, change_contact, show_all, show_phone
 
 def main():
