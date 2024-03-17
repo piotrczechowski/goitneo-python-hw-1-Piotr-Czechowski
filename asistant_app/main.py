@@ -36,6 +36,5 @@ def main():
         except UnboundLocalError:
             print("Please provide command.")
 
-# check if program is srtarted as a local program 
 if __name__ == "__main__":
     main()
